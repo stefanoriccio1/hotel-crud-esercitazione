@@ -10882,3 +10882,8 @@ a.text-dark:focus {
   }
 }
 
+.no-border {
+  border-right-color: white;
+  border-left-color: white;
+}
+
