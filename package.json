@@ -10,7 +10,7 @@
     "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
-},
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,5 +20,10 @@
     "sass": "^1.26.2",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "handlebars": "^4.7.3",
+    "jquery": "^3.4.1"
   }
 }
